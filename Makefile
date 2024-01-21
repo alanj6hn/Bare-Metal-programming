@@ -19,3 +19,6 @@ clean:
 load:
 	openocd -f board/stm32f4discovery.cfg
 	
+opocdexe:
+	arm-none-eabi-gdb.exe
+	
